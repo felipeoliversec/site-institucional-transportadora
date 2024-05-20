@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.ftp_user }}
           password: ${{ secrets.ftp_password }}
           server-dir: /home2/sofco219/rapidoguarulhos.com.br/
-          protocol: ftps
-          port: 990
+          protocol: ftp
+          port: 21
